@@ -1,0 +1,92 @@
+.mm:hover{
+    transform: scale(1.2, 1.2);
+	z-index: 9;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Benne', serif;
+}
+.nav-item{
+    font-size: 1.2rem;
+}
+.btn{
+    width: 150px;
+}
+header .container-fluid{
+    background-color: #008ae6;
+}
+#plans h2{
+    color:#008ae6;
+    font-family: 'Benne', serif;
+    font-size: 3rem;
+}
+#plans span{
+    color:#008ae6;
+}
+#plans a{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    border: none;
+    background-color:whitesmoke;
+    box-shadow:5px 5px 5px 5px whitesmoke;
+    border-radius: 1rem;
+}
+.card:hover, .card:focus, .card:active{
+            box-shadow: 0 8px 16px 3px rgba( #000, .6 );
+            transform: translatey( -3px ) scale( 1.05 ) rotateX( 15deg );
+}
+
+#feature h2{
+    color:#008ae6;
+    font-family: 'Benne', serif;
+    font-size: 3rem;
+}
+#feature img{
+    border-radius: 100%;
+}
+.car{
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    padding: 10px;
+}
+    .car:hover {
+        transform: rotateX(7deg) translateY(-6px);
+    }
+#feature h5{
+    color:#008ae6;
+}
+
+.yes img:hover{
+    transform:scale(1.3);
+  }
+
+
+.yes h2{
+    color:#008ae6;
+    font-family: 'Benne', serif;
+    font-size: 3rem;
+}
+footer{
+    background-color: #d9d9d9;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover a:active{
+    text-decoration: blue;
+}
+
+
+
+
+<span class="navbar-text">
+<a data-toggle="modal" data-target="#loginModal">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+    <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+  </svg>Login
+</a>
